@@ -96,7 +96,28 @@ body {
 }
 
 .modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
     padding: 20px 0;
+}
+
+.modal-btn {
+    padding: 8px 20px;
+    color: #fff;
+    background: #464e63;
+}
+
+.modal-btn.primary {
+    background: #377aad;
+}
+
+.modal-btn.danger {
+    background: #cc4e27;
+}
+
+.modal-btn.pull-left {
+    margin-right: auto;
 }
 
 .no-scroll {
